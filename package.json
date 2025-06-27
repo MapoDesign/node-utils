@@ -1,0 +1,16 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "Codici utili per varie funzionalità di Node",
+  "main": "password-generetor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "generate-password": "^1.7.1",
+    "password-generator": "^2.3.2"
+  }
+}
