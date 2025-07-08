@@ -1,2 +1,4 @@
-const file1 = require("./components/getWebsite.js");
-// const file2 = require("./password-generator.js");
+// const website = require("./components/getWebsite.js");
+// const password = require("./password-generator.js");
+// const server = require("./components/server.js");
+const mail = require("./components/mail.js");
