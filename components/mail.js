@@ -13,6 +13,14 @@ const mailOptions = {
   to: "user@gmail.com", // Replace with the recipient's email address
   subject: "Test Email",
   text: "This is a test email sent using Node.js and Nodemailer.",
+  attachments: [
+    {
+      path: "path/to/your/file.txt", // Replace with the path to your file
+    },
+    {
+      path: "path/to/your/file2.txt", // Replace with the path to your file
+    },
+  ],
 };
 
 trasporter.sendMail(mailOptions, (error, info) => {
