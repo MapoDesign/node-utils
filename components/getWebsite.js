@@ -1,7 +1,9 @@
 const http = require("http");
+const path = require("path");
 const options = {
-  hostname: "info.cern.ch",
+  hostname: "info.cern.cch",
   method: "GET",
+  path: "/hypertext/WWW/TheProject.html",
 };
 
 const req = http
@@ -16,6 +18,8 @@ const req = http
     }
   })
   .on("error", (err) => {
-    console.error(`Error: ${err.message} - ${err.code}`);
+    console.error(
+      `Error serve non raggiungibile: ${err.message} - ${err.code}`
+    );
   })
   .end();
