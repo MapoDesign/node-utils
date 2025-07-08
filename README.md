@@ -8,4 +8,4 @@ Genera password: node password-generator.js
 
 # getWebsite
 
-Scarica l'HTML di un sito web
+Scarica l'HTML di un sito web o salva file dalla rete.
